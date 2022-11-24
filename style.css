@@ -1,0 +1,59 @@
+/* Inicio Header */
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: navajowhite;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  background-color: grey;
+  align-items: center;
+}
+
+nav a:hover {
+  color: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.compania {
+  margin-left: 10px;
+}
+
+.compania:hover {
+  color: gold;
+}
+
+nav a{
+  font-weight: 600;
+  padding-right: 10px;
+}
+/* Fin Header */
+
+/* Inicio Contacto */
+.contacto input {
+  margin-left: 10px;
+  display: block;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-width: 3px;
+  border-color: black;
+  text-align: center;
+}
+
+.contacto-title {
+  margin-left: 10px;
+}
+
+.boton-enviar {
+  margin-left: 70px;
+  margin-top: 20px;
+}
+
+/* Fin Contacto */
